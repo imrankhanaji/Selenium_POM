@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MARCIS Test Automation Regression Suite]">
+  <test thread-count="5" name="MARCIS FUNCTIONAL TESTING(failed)">
+    <classes>
+      <class name="com.qa.marcis.tests.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyHomePageHeaderTest"/>
+        </methods>
+      </class> <!-- com.qa.marcis.tests.HomePageTest -->
+    </classes>
+  </test> <!-- MARCIS FUNCTIONAL TESTING(failed) -->
+</suite> <!-- Failed suite [MARCIS Test Automation Regression Suite] -->

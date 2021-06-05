@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MARCIS Test Automation Regression Suite" verbose="1">
+
+	<test name="MARCIS FUNCTIONAL TESTING">
+
+			<classes>
+				<class name="com.qa.marcis.tests.LoginPageTest"/>
+				
+				<class name="com.qa.marcis.tests.HomePageTest"/>
+				
+	</classes>
+
+	</test>
+
+</suite>

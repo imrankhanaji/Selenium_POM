@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69445" started-at="2020-07-11T13:59:20Z" finished-at="2020-07-11T14:00:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69445" started-at="2020-07-11T13:59:20Z" finished-at="2020-07-11T14:00:30Z">
+      <class name="com.qa.marcis.tests.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.marcis.tests.ContactsPageTest@146ba0ac]" name="setUp" is-config="true" duration-ms="8324" started-at="2020-07-11T13:59:20Z" finished-at="2020-07-11T13:59:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactsPageSetup()[pri:0, instance:com.qa.marcis.tests.ContactsPageTest@146ba0ac]" name="contactsPageSetup" is-config="true" duration-ms="16925" started-at="2020-07-11T13:59:29Z" finished-at="2020-07-11T13:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsPageSetup -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.marcis.tests.ContactsPageTest@146ba0ac]" name="createNewContactTest" duration-ms="11909" started-at="2020-07-11T13:59:47Z" data-provider="getContactsTestData" finished-at="2020-07-11T13:59:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[imrankhan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[imran]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[khan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test Analyst]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.marcis.tests.ContactsPageTest@146ba0ac]" name="createNewContactTest" duration-ms="10267" started-at="2020-07-11T13:59:59Z" data-provider="getContactsTestData" finished-at="2020-07-11T14:00:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kalim@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kalim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ahan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Programmer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.marcis.tests.ContactsPageTest@146ba0ac]" name="createNewContactTest" duration-ms="9850" started-at="2020-07-11T14:00:09Z" data-provider="getContactsTestData" finished-at="2020-07-11T14:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testt@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA Lead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.marcis.tests.ContactsPageTest@146ba0ac]" name="createNewContactTest" duration-ms="9708" started-at="2020-07-11T14:00:19Z" data-provider="getContactsTestData" finished-at="2020-07-11T14:00:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sureshs@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[suresh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kumaran]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.marcis.tests.ContactsPageTest@146ba0ac]" name="tearDown" is-config="true" duration-ms="940" started-at="2020-07-11T14:00:29Z" finished-at="2020-07-11T14:00:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.marcis.tests.ContactsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
